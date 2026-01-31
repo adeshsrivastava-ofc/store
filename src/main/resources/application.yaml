@@ -5,8 +5,8 @@ server:
   port: 8080
 stripe:
   apiUrl: https://api.stripe.com
-  timeout: 1000
   enabled: true
+  timeout: 1000
   supported-currencies: INR,USD,EUR,GBP
 payment-gateway: paypal
 mail:
