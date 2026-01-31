@@ -22,17 +22,20 @@ public class StoreApplication {
         orderService.placeOrder(1000);
 */
 
-        var stripe = context.getBean(StripePaymentService.class);
-        orderService.setPaymentService(stripe);
-        orderService.placeOrder(30);
-
-        var paypal = context.getBean(PayPalPaymentService.class);
-        orderService.setPaymentService(paypal);
-        orderService.placeOrder(50);
+//        var stripe = context.getBean(StripePaymentService.class);
+//        orderService.setPaymentService(stripe);
+//        orderService.placeOrder(30);
+//
+//        var paypal = context.getBean(PayPalPaymentService.class);
+//        orderService.setPaymentService(paypal);
+//        orderService.placeOrder(50);
 
 //        var manager = context.getBean(NotificationManager.class);
 //        manager.sendNotification("This is a test notification");
 //        manager.sendNotification("Order placed successfully");
+
+//        var heavyResource = context.getBean(HeavyResource.class);
+//        var heavyResource2 = context.getBean(HeavyResource.class);
 
 
 
