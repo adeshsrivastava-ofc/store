@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: store
+server:
+  port: 8080
+stripe:
+  apiUrl: https://api.stripe.com
+  timeout: 1000
+  enabled: true
+  supported-currencies: INR,USD,EUR,GBP
