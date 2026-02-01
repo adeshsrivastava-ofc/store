@@ -13,10 +13,10 @@ public class StoreApplication {
 //        ConfigurableApplicationContext context = SpringApplication.run(StoreApplication.class, args);
         System.out.println("Store Application Started");
 
-        var userService = context.getBean(UserService.class);
-        userService.registerUser(new User(1L, "john@example.com", "password123", "John Doe"));
-        userService.registerUser(new User(2L, "jane@example.com", "password456", "Jane Smith"));
-        userService.registerUser(new User(2L, "jane@example.com", "password456", "Jane Smith"));
+//        var userService = context.getBean(UserService.class);
+//        userService.registerUser(new User(1L, "john@example.com", "password123", "John Doe"));
+//        userService.registerUser(new User(2L, "jane@example.com", "password456", "Jane Smith"));
+//        userService.registerUser(new User(2L, "jane@example.com", "password456", "Jane Smith"));
 
 //        var orderService = context.getBean(OrderService.class);
 //        orderService.placeOrder(100);
